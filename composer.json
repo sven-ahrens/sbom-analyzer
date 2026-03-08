@@ -1,0 +1,18 @@
+{
+    "name": "sven-ahrens/sbom-analyzer",
+    "description": "Parses CycloneDX SBOM files and queries the NVD API to generate a ranked vulnerability report.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SvenAhrens\\SbomAnalyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sven Ahrens"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
